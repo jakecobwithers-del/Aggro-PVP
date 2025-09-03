@@ -1,0 +1,243 @@
+steam:"<commands>"
+Opens Steam with command line arguments, which can be found here.
+Note:
+If you forget the closing quote for a steam:"<command>", an assertion failed error will be raised by Steam.exe/BootStrapperApp.cpp.
+steam://AddNonSteamGame
+Opens the Steam checklist menu to add non-Steam games.
+Note:
+If you would like to programmatically add or remove non-Steam games, see Adding Non-Steam Games
+steam://advertise/<id>
+Opens the store to an application's page.
+steam://ackMessage/ackGuestPass/<pass>
+Accepts the specified Gift or Guest Pass.
+steam://appnews/<id>
+Opens up the news page for an app.
+steam://backup/<id>
+Opens up the Backup Wizard and checks the specified application. If an application is not specified then nothing will be checked.
+steam://broadcast/watch/<steamid64>
+steam://browsemedia
+steam://cdkeys/<appid>
+steam://checksysreqs/<id>
+Checks if users computer meets system requirements of app.
+steam://connect/<IP>[:<port>][/<password>]
+Connects the user to the server specified by the IP. You don't have to specify anything else to connect to a third party mod server, everything will be automatically detected.
+Note:
+DNS names no longer work here
+Example: steam://connect/192.0.2.1:27015
+Example: steam://connect/:27015
+steam://controllerconfig/<id>
+Opens the controller configurator (Steam Input) for the specified game.
+steam://defrag/<id>
+Defragments files of the application.
+steam://exit
+Exits the Steam application.
+steam://friends/
+Opens Friends. These sub-commands are accepted:
+add/<id>
+Adds user with specified id number
+friends/<id>
+Shows list of users with whom you recently played
+joinchat/<id>
+Joins a chat with a specified id number
+message/<id>
+Send a message
+players
+Shows table of recent players you've played with
+settings/hideoffline
+Toggle offline friends from friends list
+settings/showavatars
+Toggle avatars in friends list
+settings/sortbyname
+Sorts friends list by name
+status/away
+Sets status as away
+status/busy
+Sets status as busy
+status/invisible
+Sets status as invisible
+status/trade
+Sets status as looking to trade
+status/play
+Sets status as looking to play
+status/offline
+Sets status as offline
+status/online
+Sets status as online
+steam://flushconfig/
+Flushes and reloads the configs for each application (beta availability, etc.)
+steam://forceinputappid/<id|shortcut name>
+Forces the steam controller driver to use the layout for the given game or shortcut, without the need to use the in-game overlay, big picture mode, or even run the application at all.
+steam://gameproperties/<id>
+Opens the properties for the specified game.
+steam://guestpasses/
+Opens up the Guest Passes window.
+steam://hardwarepromo/
+Tests whether the user has hardware that matches a promotional offer. No longer works.
+Example: steam://hardwarepromo/305 (ATI/AMD, Archived)
+Example: steam://hardwarepromo/609 (Nvidia, Archived)
+steam://install/<id>
+Installs an application.
+Example: steam://install/8230 installs Sam & Max: Episode 4.
+steam://installaddon/<addon>
+Installs the specified add-on.
+Example: steam://installaddon/halflifehd installs HL High-Def Pack.
+Example: steam://installaddon/hl2russian installs HL2 Russian Pack.
+steam://musicplayer/<command>
+Commands related to the Steam music player.
+play
+pause
+toggleplaypause
+playprevious
+playnext
+togglemute
+increasevolume
+decreasevolume
+toggleplayingrepeatstatus
+toggleplayingshuffled
+steam://launch/<id>
+Same as run, but with support for multiple launch options.
+steam://launch/<id>/dialog
+Launches the game using the user's preferred launch option, or asks which to use.
+steam://nav/<component>
+Opens a Steam window, but doesn't make the Steam window active. Known <component> values:
+console
+downloads
+games
+games/details
+games/details/<id>
+games/grid
+games/list
+library/collection/hidden
+media
+music
+tools
+steam://open/<component>
+Opens a Steam window. Known <component> values:
+activateproduct
+bigpicture
+console
+The steam developer console
+downloads
+friends
+games
+games/details
+games/grid
+games/list
+largegameslist
+minigameslist
+main
+Your "favorite window".
+music
+musicplayer
+mymedia
+news
+registerproduct
+CD key registration (e.g Prey)
+screenshots/<gameid>
+servers
+settings
+tools
+steam://openurl/<url>
+Opens URL in the system's default web browser.
+steam://openurl_external/<url>
+steam://paypal/cancel
+Cancels an ongoing PayPal transaction.
+steam://preload/<id>
+Preloads an application.
+steam://publisher/<name>
+Loads the specified publisher catalogue in the Store. Type the publisher's name in lowercase, e.g. activision or valve.
+steam://purchase/<id>
+Opens a dialog box to buy an application from Steam.
+steam://purchase/subscription/<id>
+Opens up a dialog box to buy a subscription to a Steam product/service. None are available yet.
+steam://removeaddon/<addon>
+Uninstalls the specified add-on.
+Example: steam://removeaddon/halflifehd uninstalls HL High-Def Pack
+steam://run/<id>//<args>/
+Runs an application. It will be installed if necessary.
+The //<args> is optional, args are passed to the application as launch parameters.
+steam://runsafe/<id>
+Resets CVARs of a Source game.
+steam://rungameid/<id>
+Same as run, but with support for mods and non-Steam shortcuts.
+steam://settings/
+Same as steam://open/settings, but also allows for subcommands for each page:
+account
+friends
+interface
+ingame
+downloads
+voice
+steam://stopstreaming
+Stops a currently running in-home streaming session
+steam://store/<id>
+Opens up the store for an app, if no app is specified then the default one is opened.
+steam://subscriptioninstall/<id1>/<id2>/...
+Opens a dialog box with a checklist of the games specified allowing you to install them all at once.
+steam://support/<params>
+Launches the Steam Support utility, and runs all of its tests. Enter a valid support string to filter results.
+steam://takesurvey/<id>
+
+Takes a survey.
+Example: steam://takesurvey/1
+steam://uninstall/<id>
+Deletes the specified apps' cache files.
+steam://UpdateFirmware
+Opens the Steam Controller firmware update screen.
+steam://updatenews/<id>
+Opens the news about the latest updates for an app.
+
+steam://url/<named page>
+Opens a special, named web pages:
+ChatBanListAdmin/...
+CommentNotifications
+CommunityFilePage/<id>
+Opens a Workshop/Greenlight submission.
+CommunityFriendsThatPlay/<id>
+CommunityGroupSearch/<search term>
+CommunityHome/
+CommunityInventory
+CommunitySearch/
+DownloadsSupportInfo
+EventAnnouncementPage/<appid>/<EventAnnouncementID>
+https://store.steampowered.com/news/app/593110/view/2173495126269399731
+FamilySharing
+Opens the Manage Family Library Sharing page from Store -> Account.
+GameHub/<app ID>
+GroupEventsPage/<id>
+GroupSteamIDPage/<id>
+GroupSteamIDAdmin/<id>
+LeaveGroupPage
+LegalInformation
+MyHelpRequests
+Opens your recent steam support requests
+ParentalSetup
+Opens the Family View page from Store -> Account.
+PrivacyPolicy
+SSA
+SteamIDAchievementsPage/<id>
+SteamIDControlPage
+SteamIDEditPage
+SteamIDFriendsPage
+SteamIDLoginPage/<pass>
+Opens the internal automatic sign in page. It won't work unless the correct one-time password is specified.
+SteamIDMyProfile
+SteamIDPage/<id>
+SteamWorkshop
+SteamWorkshopPage/<id>
+SteamGreenlight
+Store
+StoreAccount
+StoreAppPage/<app ID>
+StoreDLCPage/<app ID>
+Opens the store page showing all DLC available for the provided app id
+StoreCart
+Storefront
+StoreFrontPage
+Opens store homepage in Steam store tab.
+SupportFrontPage
+Opens support.steampowered.com in your default browser.
+steam://validate/<id>
+Validates the local files of an app.
+steam://viewfriendsgame/<64ID>
+Views friends game

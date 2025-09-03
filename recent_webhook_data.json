@@ -1,0 +1,169 @@
+{
+  "latest_webhooks": [
+    {
+      "timestamp": "2025-09-02T07:32:12Z",
+      "type": "player_joined",
+      "webhook_1": {
+        "embeds": [
+          {
+            "type": "rich",
+            "title": "Player Joined the Server",
+            "description": "",
+            "color": 65280,
+            "fields": [
+              {
+                "name": "Player",
+                "value": "[I was Loved!!](https://steamcommunity.com/profiles/76561199843463696)",
+                "inline": true
+              },
+              {
+                "name": "Obfuscated ID",
+                "value": "657254925",
+                "inline": true
+              }
+            ]
+          }
+        ],
+        "allowed_mentions": {
+          "parse": []
+        }
+      },
+      "webhook_2": {
+        "embeds": [
+          {
+            "title": "Player: I was Loved!! joined the server!",
+            "color": 255,
+            "author": {},
+            "fields": [
+              {
+                "name": "Steam64ID:",
+                "value": "76561199843463696\n[Steam Profile](https://steamcommunity.com/profiles/76561199843463696)",
+                "inline": 1
+              },
+              {
+                "name": "Players:",
+                "value": "1/30",
+                "inline": 1
+              }
+            ],
+            "timestamp": "2025-9-2T07:32:00.000Z"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-09-02T07:32:28Z",
+      "type": "server_fps",
+      "webhook": {
+        "embeds": [
+          {
+            "title": "Server FPS",
+            "description": "Aggro PvP / AU/NZ / 24/7Raid [server is currently in testing] (103.193.80.64:3436)",
+            "color": 16744512,
+            "author": {},
+            "fields": [
+              {
+                "name": "Min",
+                "value": "7",
+                "inline": true
+              },
+              {
+                "name": "Average",
+                "value": "8708",
+                "inline": true
+              },
+              {
+                "name": "Max",
+                "value": "15519",
+                "inline": true
+              },
+              {
+                "name": "Players",
+                "value": "1",
+                "inline": true
+              },
+              {
+                "name": "Uptime",
+                "value": "2m 0s",
+                "inline": true
+              },
+              {
+                "name": "Longest Frame",
+                "value": "0.3",
+                "inline": true
+              },
+              {
+                "name": "Worst FPS",
+                "value": "3.33333",
+                "inline": true
+              }
+            ]
+          }
+        ],
+        "content": ""
+      }
+    },
+    {
+      "timestamp": "2025-09-02T23:16:04Z",
+      "type": "server_fps_recent",
+      "webhook": {
+        "embeds": [
+          {
+            "title": "Server FPS",
+            "description": "Aggro PvP / AU/NZ / 24/7Raid [server is currently in testing] (103.193.80.64:3436)",
+            "color": 16744512,
+            "author": {},
+            "fields": [
+              {
+                "name": "Min",
+                "value": "11583",
+                "inline": true
+              },
+              {
+                "name": "Average",
+                "value": "13653",
+                "inline": true
+              },
+              {
+                "name": "Max",
+                "value": "14921",
+                "inline": true
+              },
+              {
+                "name": "Players",
+                "value": "0",
+                "inline": true
+              },
+              {
+                "name": "Uptime",
+                "value": "3h 13m 2s",
+                "inline": true
+              },
+              {
+                "name": "Longest Frame",
+                "value": "0.012",
+                "inline": true
+              },
+              {
+                "name": "Worst FPS",
+                "value": "83.3333",
+                "inline": true
+              }
+            ]
+          }
+        ],
+        "content": ""
+      }
+    }
+  ],
+  "parsing_results": {
+    "player_join_success": true,
+    "steam_id_extracted": "76561199843463696",
+    "player_name": "I was Loved!!",
+    "current_players": "1/30",
+    "server_fps_tracking": true,
+    "server_uptime": "3h 13m 2s",
+    "current_player_count": 0
+  },
+  "webhook_endpoint": "https://21e02ca3-034e-4ab1-a380-bf982e579b5a-00-1x6ko0tufs4hk.janeway.replit.dev/api/webhook/dayz"
+}

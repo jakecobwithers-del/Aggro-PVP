@@ -1,0 +1,35 @@
+# Server Rules:
+# General:
+**1.** External mods/hacks/glitches/duping/scripts/NVinspect are not permitted (Filters and external crosshairs are allowed)
+**2.** No alt accounts or stream sniping
+**3.** Do not evade combat/combat log. Wait 10 minutes after a PVP encounter before you log out or enter safezone unless it could not realisticly continue
+**4.** If you log in inside someone else's base or a locked room unexpectedly - make a ticket and do not touch anything. This includes if you log in to find your own base has been raided.
+**5.** Glitch movements (vortexing/meatballing/headglitching/etc) are banned at all times
+**6.** Report any bugs/glitches. Abuse of bugs/glitches without reporting them will be punished. This includes de-rendering bases
+ 
+# Base Building:
+**1.** You are limited to one main base, and one stash base / FOB,
+**2.** Restricted to 25 code-locked doors/hatches/hangers/windows
+**3.** It must be possible to raid all areas of your base on foot (No walling off loot or using a window kit as your only access to your loot room. Windows are not raid-able).
+**4.** Your base must be constructed in a way that would be physically possible in real life. No unsupported structures. Do not build more than 2 floor kits out from a structure.
+**5.** When placing BBP Kits, you must not overlap kits in a way that prevents access or the use of raid tools
+**6.** All mesh kits and fence kits must be fully constructed (floors/walls/fences/gates)
+ **7.** If you build onto a tall structure (such as the Municipal building, Silo or the tall Radio Tower), you must not build more than 2 floor kits out or two kits above the top of the structure.
+**8.** Secure your base, windows etc, don't give your codes to untrusted players - there is no compensation if it's your mistake
+There is no base size limit, but do not abuse the privilege. If we feel your base is getting too large we will make you aware
+
+# Base Storage Limit:
+You are limited to 20 storage kits (lockers/boxes/safes/gun walls/etc) per base, plus an additional 5 per team member in your group. 
+
+# Raiding:
+**1.** Alliances are allowed.
+**2.** Raiders and defenders cannot despawn/ruin loot, do any repairs or base modifications during an active raid.
+**3.** Raiders can only drop loot from storages if they are doing so to take the storage kit. Do not to despawn unwanted loot
+**4.** Do not combat log with gear while being raided. If you need to log off with valid reason say so and don't log off with valuables
+**5.** Do not abuse hologram/kit placement to raid (one ladder placed on the floor is allowed)
+**6.** Glitch methods (I.E fireplaces/punching through windows/misusing vehicles/floating entities/etc) are not allowed
+**7.** A raid is considered active for 15 minutes after the last use of explosives or raid tools. 
+# Safezone:
+**1.** Unattended dropped items are free game. Otherwise, do not touch whats not yours (including vehicles that are not yours)
+**2.** No safezone camping, blocking, following or abusing safezone protection. Should you need to kill another player in self defense while entering or leaving safezone, leave their loot
+**3.** Unattended ungaraged vehicles at safezone may be deleted after 12hrs, (Place it or lose it.....)
