@@ -20,6 +20,9 @@ This is a full-stack web application serving as the official website for the Agg
 - **Steam Player Search System**: Comprehensive search by name or Steam ID with duplicate prevention
 - **Data Integrity Framework**: Automated webhook duplicate detection and database consistency verification
 - **Steam ID Consolidation**: Enhanced player tracking prevents duplicates when names change
+- **Beta Warning System**: Added notices to inform users about potential bugs in kill feed and leaderboard features
+- **Auto-Cleanup System**: Implemented automatic removal of "Unknown" entries from kill feed
+- **CRITICAL ISSUE**: Server deployment blocked by vite.config.ts error (rootDir undefined) - prevents webhook processing and real-time updates
 
 ## User Preferences
 Preferred communication style: Simple, everyday language.
